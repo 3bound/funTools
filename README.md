@@ -10,8 +10,8 @@ CommonJS module.
 
 ## Dependencies
 
-[Ramda](https://ramdajs.com/)
-[folktale](https://folktale.origamitower.com/)
+[Ramda](https://ramdajs.com/)\
+[Folktale](https://folktale.origamitower.com/)
 
 ## License
 

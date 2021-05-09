@@ -1,0 +1,33 @@
+{
+  "name": "funTools",
+  "version": "0.0.1",
+  "description": "Small functional utilities focused on the DOM",
+  "author": "John King",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3bound/funTools.git"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            [
+              "@babel/preset-env",
+              {
+                "useBuiltIns": "usage",
+                "corejs": 3.9
+              }
+            ]
+          ]
+        }
+      ]
+    ]
+  },
+  "dependencies": {
+    "folktale": "^2.3.2",
+    "ramda": "^0.27.1"
+  }
+}
